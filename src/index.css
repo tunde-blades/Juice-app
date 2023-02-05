@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo span{
+    display: none;
+    cursor: pointer;
+}
+.navsmobile{
+    display: none;
+}
+.navs{
+    gap: 10px;
+}
+.content{
+    margin-bottom: 50px;
+}
+.projects, .topbooks{
+    margin-bottom: 100px;
+}
+.accessbtn{
+    padding: 2px 10px;
+    border: 1px solid;
+    display: flex;
+    align-items: flex-end;
+    color: green;
+}
+
+
+@media (max-width:700px) {
+    .content{
+        padding-top: 100px;
+        text-align: center;
+    }
+    .bgimage img{
+        display: none;
+    }
+    .navs{
+        display: none;
+    }
+    .navsmobile{
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        top: 65px;
+        left: -40px;
+        backdrop-filter: blur(5px);
+        padding: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .navsmobile li{
+        border: 1px solid;
+        padding:5px 10px;
+        font-size: 12px;
+        border-radius: .5em;
+    }
+    .logo span{
+        display: block;
+    }
+    .logo img{
+        width: 25px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+
+
+}
