@@ -6,14 +6,27 @@
     display: none;
     cursor: pointer;
 }
+.header{
+position:absolute;
+z-index: 20;
+width: 100%;
+}
 .navsmobile{
     display: none;
 }
 .navs{
     gap: 10px;
+    z-index: 20;
 }
 .content{
     margin-bottom: 50px;
+}
+.section1{
+    position:relative;
+    height: 400px;
+    background: url('./assets/images/juicebg.jpg');
+    background-size: cover;
+    margin-bottom: 70px;
 }
 .projects, .topbooks{
     margin-bottom: 100px;
@@ -39,17 +52,18 @@
         display: none;
     }
     .navsmobile{
-        width: 100%;
+        width: fit-content;
         position: absolute;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        top: 65px;
-        left: -40px;
+        gap: 20px;
+        /* top: 65px; */
+        right:40px;
         backdrop-filter: blur(5px);
         padding: 20px;
         font-size: 18px;
         font-weight: bold;
+        z-index: 200;
     }
     .navsmobile li{
         border: 1px solid;
