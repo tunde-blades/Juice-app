@@ -24,6 +24,9 @@ width: 100%;
     gap: 10px;
     z-index: 20;
 }
+h4{
+    color: black;
+}
 .section1{
     position:relative;
     height: 400px;

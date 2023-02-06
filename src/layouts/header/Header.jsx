@@ -22,7 +22,7 @@ export default function Header() {
         <menu className='flex space-x-10 items-center justify-between'>
                 <picture className='flex items-center'>
                     <img className='w-10' src={logo} alt="" />
-                    <p className='text-white'>Juicey..</p>
+                    <p className='text-white'>Juicey</p>
                 </picture> 
                 <picture className='logo'>
                     <span onClick={displayNav}>{openNav ? <Cancel className='text-white'/>:<Menu className='text-white'/>}</span>
