@@ -1,6 +1,6 @@
 // import React, {useEffect, useState} from 'react'
 import Header from '../../layouts/header/Header'
-import { Search} from '@mui/icons-material';
+// import { Search} from '@mui/icons-material';
 import juice1 from '../../assets/images/juice (1).jpg'
 import juice2 from '../../assets/images/juice (2).jpg'
 import juice3 from '../../assets/images/juice (3).jpg'
