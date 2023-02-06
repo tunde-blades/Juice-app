@@ -25,6 +25,8 @@ width: 100%;
     position:relative;
     height: 400px;
     background: url('./assets/images/juicebg.jpg');
+    background-color:rgba(0, 0, 0, 0.534);
+    background-blend-mode: multiply;
     background-size: cover;
     margin-bottom: 70px;
 }

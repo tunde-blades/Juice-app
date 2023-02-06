@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logo.svg'
 import Loginbtn from '../../components/buttons/Loginbtn'
 import SignUpbtn from '../../components/buttons/SignUpbtn'
 import { useState } from 'react'
@@ -25,14 +25,14 @@ export default function Header() {
                     <p className='text-green-500'>Juicey..</p>
                 </picture> 
                 <picture className='logo'>
-                    <span onClick={displayNav}>{openNav ? <Cancel className='text-gray-400'/>:<Menu className='text-gray-400'/>}</span>
+                    <span onClick={displayNav}>{openNav ? <Cancel className='text-white'/>:<Menu className='text-white'/>}</span>
                 </picture>
-                <nav className='flex  text-gray-900 navs'>
+                <nav className='flex  text-whitenavs'>
                     <li className='cursor-pointer'>Catalog</li>
                     <li className='cursor-pointer'>Contact us</li>
                 </nav>
                 {
-                    openNav && <nav className='text-gray-900 navsmobile'>
+                    openNav && <nav className='text-white navsmobile'>
                     <li className='cursor-pointer'>Catalog</li>
                     <li className='cursor-pointer'>Contact us</li>
                 </nav>
