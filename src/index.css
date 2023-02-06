@@ -5,7 +5,8 @@
 
 
 .sections{
-    background: rgb(104, 48, 2);
+    background: rgb(59, 28, 1);
+    color: white;
 }
 .logo span{
     display: none;
