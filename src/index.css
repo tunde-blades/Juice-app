@@ -41,7 +41,21 @@ width: 100%;
     color: rgb(171, 255, 171);
     border-radius: .5em;
 }
-
+.box{
+    width: 50%;
+    max-width: 700px;
+}
+.box picture{
+    width:50%;
+}
+.box img{
+    width:100%;
+}
+.box .content{
+    width:50%;
+    display: flex;
+    align-items: flex-end;
+}
 
 @media (max-width:700px) {
     .content{

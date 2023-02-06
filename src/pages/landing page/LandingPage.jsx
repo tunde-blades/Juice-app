@@ -23,10 +23,10 @@ export default function LandingPage() {
       </section>
       <h1 className='font-bold px-3'>Recently Ordered</h1>
       <section className=' overflow-hidden topbooks'>
-            <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
-              <div className='flex flex-row w-90 items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='w-25' src={juice} alt="" /></picture>
-                <div className='p-2 w-100'>
+          <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
+              <div className='box flex flex-row  items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
+                <picture ><img className='' src={juice} alt="" /></picture>
+                <div className='p-2 content'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-white'>Orange blended with apple</small>
                   <div className='flex flex-row gap-2 items-center'>
@@ -36,9 +36,9 @@ export default function LandingPage() {
               </div>
         </div>
         <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
-              <div className='flex flex-row w-90 items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='w-25' src={juice} alt="" /></picture>
-                <div className='p-2 w-100'>
+              <div className='box flex flex-row  items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
+                <picture ><img className='' src={juice} alt="" /></picture>
+                <div className='p-2 content'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-white'>Orange blended with apple</small>
                   <div className='flex flex-row gap-2 items-center'>
@@ -48,9 +48,9 @@ export default function LandingPage() {
               </div>
         </div>
         <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
-              <div className='flex flex-row w-90 items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='w-25' src={juice} alt="" /></picture>
-                <div className='p-2 w-100'>
+              <div className='box flex flex-row  items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
+                <picture ><img className='' src={juice} alt="" /></picture>
+                <div className='p-2 content'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-white'>Orange blended with apple</small>
                   <div className='flex flex-row gap-2 items-center'>
@@ -60,9 +60,21 @@ export default function LandingPage() {
               </div>
         </div>
         <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
-              <div className='flex flex-row w-90 items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='w-25' src={juice} alt="" /></picture>
-                <div className='p-2 w-100'>
+              <div className='box flex flex-row  items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
+                <picture ><img className='' src={juice} alt="" /></picture>
+                <div className='p-2 content'>
+                  <h3 className='font-normal text-white'>Fruit Juice </h3>
+                  <small className='text-white'>Orange blended with apple</small>
+                  <div className='flex flex-row gap-2 items-center'>
+                    <button className='accessbtn '>Order Now</button>
+                </div>
+                </div>
+              </div>
+        </div>            
+        <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
+              <div className='flex flex-row items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
+                <picture ><img className='' src={juice} alt="" /></picture>
+                <div className='p-2 '>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-white'>Orange blended with apple</small>
                   <div className='flex flex-row gap-2 items-center'>
