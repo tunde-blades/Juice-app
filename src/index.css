@@ -38,7 +38,8 @@ width: 100%;
     border: 1px solid;
     display: flex;
     align-items: flex-end;
-    color: green;
+    color: rgb(171, 255, 171);
+    border-radius: .5em;
 }
 
 

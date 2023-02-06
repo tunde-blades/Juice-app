@@ -27,7 +27,7 @@ export default function Header() {
                 <picture className='logo'>
                     <span onClick={displayNav}>{openNav ? <Cancel className='text-white'/>:<Menu className='text-white'/>}</span>
                 </picture>
-                <nav className='flex  text-whitenavs'>
+                <nav className='flex  text-white navs'>
                     <li className='cursor-pointer'>Catalog</li>
                     <li className='cursor-pointer'>Contact us</li>
                 </nav>

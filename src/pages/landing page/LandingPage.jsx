@@ -10,7 +10,7 @@ export default function LandingPage() {
 
 
   return (
-    <div className='background-black-500'>
+    <div className=''>
       <Header/>
       <section className='section1 flex justify-between py-3 max-h-screen'>
           <div className=''>
