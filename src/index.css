@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.sections{
+    background: rgb(104, 48, 2));
+}
 .logo span{
     display: none;
     cursor: pointer;
@@ -21,7 +26,7 @@ width: 100%;
 .section1{
     position:relative;
     height: 400px;
-    background: url('./assets/images/juicebg.jpg');
+    background: url('./assets/images/juice\ \(5\).jpg');
     background-color:rgba(0, 0, 0, 0.534);
     background-blend-mode: multiply;
     background-size: cover;
@@ -35,7 +40,8 @@ width: 100%;
     border: 1px solid;
     display: flex;
     align-items: flex-end;
-    color: rgb(171, 255, 171);
+    background:rgb(2, 31, 2);
+    color: white;
     border-radius: .5em;
 }
 .box{
@@ -54,6 +60,9 @@ width: 100%;
     flex-direction: column;
     justify-content:flex-end;
     gap: 10px;
+}
+.video{
+    margin-bottom: 70px;
 }
 
 @media (max-width:700px) {

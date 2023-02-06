@@ -27,7 +27,7 @@ export default function LandingPage() {
 
 
   return (
-    <div className=''>
+    <div className='sections'>
       <Header/>
       <section className='section1 flex justify-between py-3 max-h-screen'>
           <div className=''>
@@ -42,10 +42,10 @@ export default function LandingPage() {
       <section className=' overflow-hidden topbooks'>
           <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
               <div className='box flex flex-row  items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='' src={juice5} alt="" /></picture>
+                <picture ><img className='' src={juice3} alt="" /></picture>
                 <div className='p-2 content'>
-                  <h3 className='font-normal text-white'>Fruit Juice </h3>
-                  <small className='text-white'>Orange blended with apple</small>
+                  <h3 className='font-normal text-white'>Watermel Juice </h3>
+                  <small className='text-white'>Watermelon juice mixed with fine ingredients to nourish the skin and keep you hydrated, take it on the go, in the office, or at home.</small>
                   <div className='flex flex-row gap-2 items-center'>
                     <button className='accessbtn '>Order Now</button>
                 </div>
@@ -57,7 +57,7 @@ export default function LandingPage() {
                 <picture ><img className='' src={juice2} alt="" /></picture>
                 <div className='p-2 content'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
-                  <small className='text-white'>Orange blended with apple</small>
+                  <small className='text-white'>Watermelon juice mixed with fine ingredients to nourish the skin and keep you hydrated, take it on the go, in the office, or at home.</small>
                   <div className='flex flex-row gap-2 items-center'>
                     <button className='accessbtn '>Order Now</button>
                 </div>
@@ -66,10 +66,10 @@ export default function LandingPage() {
         </div>
         <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
               <div className='box flex flex-row  items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='' src={juice3} alt="" /></picture>
+                <picture ><img className='' src={juice5} alt="" /></picture>
                 <div className='p-2 content'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
-                  <small className='text-white'>Orange blended with apple</small>
+                  <small className='text-white'>Watermelon juice mixed with fine ingredients to nourish the skin and keep you hydrated, take it on the go, in the office, or at home.</small>
                   <div className='flex flex-row gap-2 items-center'>
                     <button className='accessbtn '>Order Now</button>
                 </div>
@@ -81,7 +81,7 @@ export default function LandingPage() {
                 <picture ><img className='' src={juice4} alt="" /></picture>
                 <div className='p-2 content'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
-                  <small className='text-white'>Orange blended with apple</small>
+                 <small className='text-white'>Watermelon juice mixed with fine ingredients to nourish the skin and keep you hydrated, take it on the go, in the office, or at home.</small>
                   <div className='flex flex-row gap-2 items-center'>
                     <button className='accessbtn '>Order Now</button>
                 </div>
@@ -153,7 +153,7 @@ export default function LandingPage() {
         </div>
         <div className='flex flex-row min-w-max p-2 gap-2'>
               <div className='flex flex-col w-40 overflow-hidden items-start justify-between bg-gray-100 p-2 rounded shadow-md'>
-                <picture><img className='max-w-14 flex-1' src={juice11} alt="" /></picture>
+                <picture><img className='flex-1' src={juice11} alt="" /></picture>
                 <h4 className='font-normal'>Pine juice</h4>
                 <small className='text-gray-400'>Pine grinded with pepper</small>
                 <div className='flex flex-row gap-2 items-center'>
@@ -162,7 +162,7 @@ export default function LandingPage() {
               </div>
         </div>
       </section>
-      <video className='w-50 m-b-10' autoPlay loop muted src={juicevid}></video>
+      <video className='w-50 m-b-10 video' autoPlay loop muted src={juicevid}></video>
       <p className='p-2'>You might also like</p>
       <section className='flex overflow-scroll topbooks'>
             <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
