@@ -42,7 +42,7 @@ export default function LandingPage() {
       <section className=' overflow-hidden topbooks'>
           <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
               <div className='box flex flex-row  items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='' src={juice1} alt="" /></picture>
+                <picture ><img className='' src={juice5} alt="" /></picture>
                 <div className='p-2 content'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-white'>Orange blended with apple</small>
@@ -93,7 +93,7 @@ export default function LandingPage() {
       <section className='flex overflow-scroll projects'>
             <div className='flex flex-row min-w-max p-2 gap-2'>
               <div className='flex flex-col w-40 overflow-hidden items-start justify-between bg-gray-100 p-2 rounded shadow-md'>
-                <picture><img className='max-w-14 flex-1' src={juice5} alt="" /></picture>
+                <picture><img className='max-w-14 flex-1' src={juice16} alt="" /></picture>
                 <h4 className='font-normal'>Pine juice</h4>
                 <small className='text-gray-400'>Pine grinded with pepper</small>
                 <div className='flex flex-row gap-2 items-center'>
@@ -113,7 +113,7 @@ export default function LandingPage() {
         </div>
         <div className='flex flex-row min-w-max p-2 gap-2'>
               <div className='flex flex-col w-40 overflow-hidden items-start justify-between bg-gray-100 p-2 rounded shadow-md'>
-                <picture><img className='max-w-14 flex-1' src={juice7} alt="" /></picture>
+                <picture><img className='max-w-14 flex-1' src={juice15} alt="" /></picture>
                 <h4 className='font-normal'>Pine juice</h4>
                 <small className='text-gray-400'>Pine grinded with pepper</small>
                 <div className='flex flex-row gap-2 items-center'>
@@ -123,7 +123,7 @@ export default function LandingPage() {
         </div>
         <div className='flex flex-row min-w-max p-2 gap-2'>
               <div className='flex flex-col w-40 overflow-hidden items-start justify-between bg-gray-100 p-2 rounded shadow-md'>
-                <picture><img className='max-w-14 flex-1' src={juice8} alt="" /></picture>
+                <picture><img className='max-w-14 flex-1' src={juice14} alt="" /></picture>
                 <h4 className='font-normal'>Pine juice</h4>
                 <small className='text-gray-400'>Pine grinded with pepper</small>
                 <div className='flex flex-row gap-2 items-center'>
@@ -133,7 +133,7 @@ export default function LandingPage() {
         </div>
         <div className='flex flex-row min-w-max p-2 gap-2'>
               <div className='flex flex-col w-40 overflow-hidden items-start justify-between bg-gray-100 p-2 rounded shadow-md'>
-                <picture><img className='max-w-14 flex-1' src={juice9} alt="" /></picture>
+                <picture><img className='max-w-14 flex-1' src={juice13} alt="" /></picture>
                 <h4 className='font-normal'>Pine juice</h4>
                 <small className='text-gray-400'>Pine grinded with pepper</small>
                 <div className='flex flex-row gap-2 items-center'>
@@ -179,7 +179,7 @@ export default function LandingPage() {
             </div>
             <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
               <div className='flex flex-row w-90 items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='w-20' src={juice13} alt="" /></picture>
+                <picture ><img className='w-20' src={juice7} alt="" /></picture>
                 <div className='p-2 w-50'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-gray-600'>Orange blended with apple</small>
@@ -191,7 +191,7 @@ export default function LandingPage() {
             </div>
             <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
               <div className='flex flex-row w-90 items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='w-20' src={juice14} alt="" /></picture>
+                <picture ><img className='w-20' src={juice8} alt="" /></picture>
                 <div className='p-2 w-50'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-gray-600'>Orange blended with apple</small>
@@ -203,7 +203,7 @@ export default function LandingPage() {
             </div>
             <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
               <div className='flex flex-row w-90 items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='w-20' src={juice15} alt="" /></picture>
+                <picture ><img className='w-20' src={juice9} alt="" /></picture>
                 <div className='p-2 w-50'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-gray-600'>Orange blended with apple</small>
@@ -215,7 +215,7 @@ export default function LandingPage() {
             </div>
             <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
               <div className='flex flex-row w-90 items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='w-20' src={juice16} alt="" /></picture>
+                <picture ><img className='w-20' src={juice5} alt="" /></picture>
                 <div className='p-2 w-50'>
                   <h3 className='font-normal text-white'>Fruit Juice </h3>
                   <small className='text-gray-600'>Orange blended with apple</small>
