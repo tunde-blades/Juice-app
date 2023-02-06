@@ -41,10 +41,10 @@ h4{
 }
 .accessbtn{
     padding: 2px 10px;
-    border: 1px solid;
+    border: 1px solid rgba(128, 128, 128, 0.295);
     display: flex;
     align-items: flex-end;
-    background:rgb(2, 31, 2);
+    background:rgb(4, 61, 4);
     color: white;
     border-radius: .3em;
 }
