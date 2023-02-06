@@ -46,7 +46,7 @@ h4{
     align-items: flex-end;
     background:rgb(4, 61, 4);
     color: white;
-    border-radius: .3em;
+    border-radius: .3em; 
 }
 .box{
     width: 50%;
