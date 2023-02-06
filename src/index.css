@@ -18,9 +18,6 @@ width: 100%;
     gap: 10px;
     z-index: 20;
 }
-.content{
-    margin-bottom: 50px;
-}
 .section1{
     position:relative;
     height: 400px;
@@ -54,14 +51,12 @@ width: 100%;
 .box .content{
     width:50%;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content:flex-end;
+    gap: 10px;
 }
 
 @media (max-width:700px) {
-    .content{
-        padding-top: 100px;
-        text-align: center;
-    }
     .bgimage img{
         display: none;
     }

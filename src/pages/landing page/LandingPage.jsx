@@ -71,18 +71,6 @@ export default function LandingPage() {
                 </div>
               </div>
         </div>            
-        <div className='flex flex-row flex-wrap min-w-max p-2 gap-2'>
-              <div className='flex flex-row items-center  justify-between bg-orange-700 p-2 rounded shadow-md' >
-                <picture ><img className='' src={juice} alt="" /></picture>
-                <div className='p-2 '>
-                  <h3 className='font-normal text-white'>Fruit Juice </h3>
-                  <small className='text-white'>Orange blended with apple</small>
-                  <div className='flex flex-row gap-2 items-center'>
-                    <button className='accessbtn '>Order Now</button>
-                </div>
-                </div>
-              </div>
-        </div>
       </section>
       <h1 className='font-bold px-3'>Newly Added</h1>
       <section className='flex overflow-scroll projects'>
